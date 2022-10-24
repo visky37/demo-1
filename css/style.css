@@ -682,6 +682,36 @@ body {
   .myfocus-h2 {
     margin-top: 40px;
   }
+  
+  .wrap-tools {
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tools {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .tools i {
+    font-size: 40px;
+  }
+  
+  .wrap-tools h2 {
+    letter-spacing: -2px;
+    font-style: italic;
+    font-size: 30px;
+    color: darkslategrey;
+  }
 
   .footer {
     width: 100%;
